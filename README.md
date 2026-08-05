@@ -1,6 +1,6 @@
 # Lorenzo Arteaga Digital Business Card
 
-A premium, mobile-first digital business card for Lorenzo Arteaga, Financial Services Representative III at First Interstate Bank. The site gives visitors fast access to contact details, appointment booking, directions, banking services, and a downloadable vCard.
+A premium, mobile-first digital business card for Lorenzo Arteaga, Community & Business Banker at First Interstate Bank. The site gives visitors fast access to contact details, appointment booking, directions, banking services, and a downloadable vCard.
 
 ## Technology
 
@@ -22,10 +22,9 @@ Deploy the repository root directly to Netlify. The included `netlify.toml` publ
 
 ## Content Updates
 
-- Replace `assets/portrait.svg` with Lorenzo's approved professional headshot while keeping the same filename, or update the image paths and Open Graph image in `index.html`.
+- Replace `assets/portrait.jpg` if Lorenzo's approved professional headshot changes.
 - Update the canonical and Open Graph URLs in `index.html` if the production domain changes.
-- Edit contact details in both `index.html` and `contact.vcf` so the visible card and downloadable contact remain synchronized.
-- Replace sample testimonials with approved client statements before presenting them as real endorsements.
+- Edit contact details in `index.html`, `contact.vcf`, the JSON-LD block in `index.html`, and `assets/og-card.png` so the visible card, downloadable contact, structured metadata, and social preview stay synchronized.
 
 ## Files
 
@@ -33,5 +32,7 @@ Deploy the repository root directly to Netlify. The included `netlify.toml` publ
 - `style.css` — responsive design system, themes, and animation
 - `script.js` — interaction and QR logic
 - `contact.vcf` — downloadable contact card
-- `assets/portrait.svg` — professional portrait placeholder
+- `netlify.toml` — publish directory plus security and asset-caching headers
+- `assets/portrait.jpg` — approved professional portrait
+- `assets/qrcode.min.js` — vendored QR code generator used by `script.js`
 - `assets/favicon.svg`, `assets/apple-touch-icon.png`, and `assets/og-card.png` — browser, mobile, and social preview assets
