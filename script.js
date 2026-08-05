@@ -112,3 +112,43 @@ window.setTimeout(() => pageLoader?.classList.add("is-hidden"), 2200);
 
 const currentYear = document.querySelector("#currentYear");
 if (currentYear) currentYear.textContent = new Date().getFullYear();
+
+function updateAvailability() {
+    const badge = document.getElementById("availabilityBadge");
+    const text = document.getElementById("availabilityText");
+
+    if (!badge || !text) return;
+
+    const now = new Date();
+
+    // Portland time
+    const hour = Number(
+        now.toLocaleString("en-US", {
+            timeZone: "America/Los_Angeles",
+            hour: "numeric",
+            hour12: false
+        })
+    );
+
+    const day = Number(
+        now.toLocaleString("en-US", {
+            timeZone: "America/Los_Angeles",
+            weekday: "numeric"
+        })
+    );
+
+    // Monday-Friday, 9 AM - 5 PM
+    const isWeekday = day >= 1 && day <= 5;
+    const isBusinessHours = hour >= 9 && hour < 17;
+
+    if (isWeekday && isBusinessHours) {
+        badge.classList.remove("offline");
+        text.textContent = "Available to Connect";
+    } else {
+        badge.classList.add("offline");
+        text.textContent = "Currently Unavailable";
+    }
+}
+
+updateAvailability();
+setInterval(updateAvailability, 60000);
