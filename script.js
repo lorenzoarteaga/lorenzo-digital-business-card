@@ -70,7 +70,7 @@
     );
 
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", isDark ? "#101315" : "#ff7a3d");
+    if (meta) meta.setAttribute("content", isDark ? "#101315" : "#f3701f");
   }
 
   function storedTheme() {

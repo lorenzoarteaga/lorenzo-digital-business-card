@@ -1,6 +1,6 @@
 # Lorenzo Arteaga Digital Business Card
 
-A premium, mobile-first digital business card for Lorenzo Arteaga, Financial Services Representative III at First Interstate Bank. The site gives visitors fast access to contact details, appointment booking, directions, banking services, and a downloadable vCard.
+A premium, mobile-first digital business card for Lorenzo Arteaga, Community & Business Banker at First Interstate Bank. The site gives visitors fast access to contact details, appointment booking, directions, banking services, and a downloadable vCard.
 
 ## Technology
 
@@ -24,8 +24,7 @@ Deploy the repository root directly to Netlify. The included `netlify.toml` publ
 
 - Replace `assets/portrait.svg` with Lorenzo's approved professional headshot while keeping the same filename, or update the image paths and Open Graph image in `index.html`.
 - Update the canonical and Open Graph URLs in `index.html` if the production domain changes.
-- Edit contact details in both `index.html` and `contact.vcf` so the visible card and downloadable contact remain synchronized.
-- Replace sample testimonials with approved client statements before presenting them as real endorsements.
+- Edit contact details in `index.html`, `contact.vcf`, the JSON-LD block in `index.html`, and `assets/og-card.png` so the visible card, downloadable contact, structured metadata, and social preview stay synchronized.
 
 ## Files
 
