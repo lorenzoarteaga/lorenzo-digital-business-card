@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Arteaga;Lorenzo;;;
+FN:Lorenzo Arteaga
+ORG:First Interstate Bank
+TITLE:Financial Services Representative III
+TEL;TYPE=WORK,VOICE:+15035550142
+EMAIL;TYPE=WORK,INTERNET:lorenzo.arteaga@firstinterstate.com
+ADR;TYPE=WORK:;;121 SW Morrison St;Portland;OR;97204;USA
+URL:https://lorenzoarteaga.netlify.app/
+NOTE:Checking and savings, home and auto loans, retirement planning, and small business banking for the Portland area.
+END:VCARD

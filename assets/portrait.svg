@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 420" width="360" height="420" role="img" aria-labelledby="portraitTitle portraitDesc">
+  <title id="portraitTitle">Portrait placeholder</title>
+  <desc id="portraitDesc">Illustrated placeholder standing in for Lorenzo Arteaga's professional headshot.</desc>
+
+  <defs>
+    <clipPath id="ovalClip">
+      <ellipse cx="180" cy="210" rx="168" ry="204" />
+    </clipPath>
+
+    <linearGradient id="backdropFill" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#fff4ec" />
+      <stop offset="1" stop-color="#fde3d2" />
+    </linearGradient>
+
+    <linearGradient id="skinFill" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#f6c9a4" />
+      <stop offset="1" stop-color="#e8ac82" />
+    </linearGradient>
+
+    <linearGradient id="suitFill" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#2b3238" />
+      <stop offset="1" stop-color="#1b2126" />
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#ovalClip)">
+    <rect width="360" height="420" fill="url(#backdropFill)" />
+
+    <!-- soft glow behind the figure -->
+    <circle cx="180" cy="150" r="118" fill="#ffffff" opacity="0.55" />
+
+    <!-- shoulders and suit -->
+    <path d="M40 420 C 52 344 104 306 180 306 C 256 306 308 344 320 420 Z" fill="url(#suitFill)" />
+
+    <!-- shirt and collar -->
+    <path d="M148 312 L180 356 L212 312 L196 302 L180 318 L164 302 Z" fill="#f7f4f1" />
+    <path d="M180 356 L168 318 L180 306 L192 318 Z" fill="#f3701f" />
+
+    <!-- neck -->
+    <path d="M154 262 h52 v44 c 0 14 -52 14 -52 0 Z" fill="#e0a077" />
+
+    <!-- head -->
+    <ellipse cx="180" cy="196" rx="66" ry="78" fill="url(#skinFill)" />
+
+    <!-- ears -->
+    <ellipse cx="114" cy="200" rx="10" ry="15" fill="#e0a077" />
+    <ellipse cx="246" cy="200" rx="10" ry="15" fill="#e0a077" />
+
+    <!-- hair -->
+    <path d="M112 186 C 112 126 146 106 180 106 C 216 106 248 128 248 188 C 238 168 226 152 200 146 C 172 140 138 152 122 186 Z" fill="#20262c" />
+
+    <!-- brows -->
+    <path d="M146 180 q 16 -9 32 -2" stroke="#20262c" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M182 178 q 16 -7 32 2" stroke="#20262c" stroke-width="6" stroke-linecap="round" fill="none" />
+
+    <!-- eyes -->
+    <circle cx="158" cy="200" r="6.5" fill="#20262c" />
+    <circle cx="202" cy="200" r="6.5" fill="#20262c" />
+
+    <!-- nose and smile -->
+    <path d="M180 208 v16 q 0 6 -7 8" stroke="#d09268" stroke-width="4" stroke-linecap="round" fill="none" />
+    <path d="M160 240 q 20 18 40 0" stroke="#9a5b39" stroke-width="5" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

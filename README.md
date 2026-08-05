@@ -33,5 +33,7 @@ Deploy the repository root directly to Netlify. The included `netlify.toml` publ
 - `style.css` — responsive design system, themes, and animation
 - `script.js` — interaction and QR logic
 - `contact.vcf` — downloadable contact card
+- `netlify.toml` — publish directory plus security and asset-caching headers
 - `assets/portrait.svg` — professional portrait placeholder
+- `assets/qrcode.min.js` — vendored QR code generator used by `script.js`
 - `assets/favicon.svg`, `assets/apple-touch-icon.png`, and `assets/og-card.png` — browser, mobile, and social preview assets

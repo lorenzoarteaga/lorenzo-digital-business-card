@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorenzo Arteaga | Financial Services Representative III, First Interstate Bank</title>
+  <meta name="description" content="Digital business card for Lorenzo Arteaga, Financial Services Representative III at First Interstate Bank in Portland, Oregon. Call, book an appointment, get directions, or save his contact." />
+  <meta name="theme-color" content="#ff7a3d" />
+
+  <link rel="canonical" href="https://lorenzoarteaga.netlify.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Lorenzo Arteaga | First Interstate Bank" />
+  <meta property="og:description" content="Financial Services Representative III at First Interstate Bank, Portland, Oregon. Connect, book an appointment, or save my contact card." />
+  <meta property="og:url" content="https://lorenzoarteaga.netlify.app/" />
+  <meta property="og:image" content="https://lorenzoarteaga.netlify.app/assets/og-card.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body data-theme="light">
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__mark">
+      <i class="fa-solid fa-building-columns"></i>
+    </div>
+  </div>
+
+  <div class="toast-stack" id="toastStack" role="status" aria-live="polite"></div>
+
+  <div class="backdrop" aria-hidden="true">
+    <div class="backdrop__orb backdrop__orb--one"></div>
+    <div class="backdrop__orb backdrop__orb--two"></div>
+    <svg class="backdrop__path" viewBox="0 0 960 600" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-20,120 C 220,40 340,260 620,140 S 1000,40 1000,40" />
+    </svg>
+  </div>
+
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__badge"><i class="fa-solid fa-building-columns"></i></span>
+      <span class="topbar__location">Portland, Oregon</span>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+      <i class="fa-solid fa-moon" aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="hero__portrait reveal">
+        <div class="portrait-frame">
+          <img src="/assets/portrait.svg" alt="Portrait of Lorenzo Arteaga" width="360" height="420" />
+        </div>
+      </div>
+
+      <div class="hero__card reveal reveal--delay-1">
+        <p class="eyebrow">Direct Contact</p>
+        <h1 class="hero__heading">Let&rsquo;s connect</h1>
+        <p class="hero__name">Lorenzo Arteaga</p>
+        <p class="hero__title">Financial Services Representative III &middot; First Interstate Bank</p>
+        <p class="hero__blurb">
+          From everyday checking to your next big milestone, I help Portland-area neighbors
+          bank with more confidence. Reach out any time&mdash;happy to walk through your options.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--outline" href="tel:+15035550142">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i> Call
+          </a>
+          <a class="btn btn--solid" href="https://outlook.office.com/bookwithme/user/lorenzoarteaga" target="_blank" rel="noopener">
+            <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> Book
+          </a>
+        </div>
+        <dl class="hero__detail">
+          <div class="hero__detail-row">
+            <dt>Phone</dt>
+            <dd>
+              <span data-copy-value="+1 (503) 555-0142">(503) 555-0142</span>
+              <button class="copy-btn" type="button" data-copy-target aria-label="Copy phone number">
+                <i class="fa-regular fa-copy" aria-hidden="true"></i>
+              </button>
+            </dd>
+          </div>
+          <div class="hero__detail-row">
+            <dt>Email</dt>
+            <dd>
+              <span data-copy-value="lorenzo.arteaga@firstinterstate.com">lorenzo.arteaga@<wbr />firstinterstate.com</span>
+              <button class="copy-btn" type="button" data-copy-target aria-label="Copy email address">
+                <i class="fa-regular fa-copy" aria-hidden="true"></i>
+              </button>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="panel reveal" aria-labelledby="reach-heading">
+      <div class="panel__head">
+        <p class="eyebrow">Reach Me</p>
+        <h2 id="reach-heading">Every way to get in touch</h2>
+      </div>
+      <div class="action-grid">
+        <a class="action-card" href="tel:+15035550142">
+          <span class="action-card__icon"><i class="fa-solid fa-phone"></i></span>
+          <span class="action-card__label">Call</span>
+          <span class="action-card__value">(503) 555-0142</span>
+        </a>
+        <a class="action-card" href="mailto:lorenzo.arteaga@firstinterstate.com">
+          <span class="action-card__icon"><i class="fa-solid fa-envelope"></i></span>
+          <span class="action-card__label">Email</span>
+          <span class="action-card__value">lorenzo.arteaga@<wbr />firstinterstate.com</span>
+        </a>
+        <a class="action-card" href="https://outlook.office.com/bookwithme/user/lorenzoarteaga" target="_blank" rel="noopener">
+          <span class="action-card__icon"><i class="fa-regular fa-calendar-check"></i></span>
+          <span class="action-card__label">Book an appointment</span>
+          <span class="action-card__value">Pick a time that works</span>
+        </a>
+        <a class="action-card" href="https://www.google.com/maps/search/?api=1&query=First+Interstate+Bank+121+SW+Morrison+St+Portland+OR" target="_blank" rel="noopener">
+          <span class="action-card__icon"><i class="fa-solid fa-location-dot"></i></span>
+          <span class="action-card__label">Get directions</span>
+          <span class="action-card__value">121 SW Morrison St, Portland</span>
+        </a>
+        <button class="action-card action-card--button" type="button" id="downloadVcard">
+          <span class="action-card__icon"><i class="fa-solid fa-id-card"></i></span>
+          <span class="action-card__label">Save contact</span>
+          <span class="action-card__value">Download vCard (.vcf)</span>
+        </button>
+        <a class="action-card" href="https://www.linkedin.com/in/lorenzo-arteaga-fib" target="_blank" rel="noopener">
+          <span class="action-card__icon"><i class="fa-brands fa-linkedin"></i></span>
+          <span class="action-card__label">LinkedIn</span>
+          <span class="action-card__value">Connect professionally</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="panel panel--split" aria-labelledby="services-heading">
+      <div class="panel__head reveal">
+        <p class="eyebrow">How I Can Help</p>
+        <h2 id="services-heading">Banking services I support</h2>
+        <p class="panel__intro">
+          A quick look at what I handle day to day&mdash;bring in whatever&rsquo;s on your mind and
+          we&rsquo;ll find the right fit together.
+        </p>
+      </div>
+      <ul class="service-list">
+        <li class="service-list__item reveal">
+          <span class="service-list__icon"><i class="fa-solid fa-piggy-bank"></i></span>
+          <div>
+            <h3>Checking &amp; savings</h3>
+            <p>Everyday accounts, overdraft options, and savings goals built around your habits.</p>
+          </div>
+        </li>
+        <li class="service-list__item reveal reveal--delay-1">
+          <span class="service-list__icon"><i class="fa-solid fa-house"></i></span>
+          <div>
+            <h3>Home &amp; auto loans</h3>
+            <p>Guidance on rates, terms, and paperwork for your next home or vehicle purchase.</p>
+          </div>
+        </li>
+        <li class="service-list__item reveal reveal--delay-2">
+          <span class="service-list__icon"><i class="fa-solid fa-chart-line"></i></span>
+          <div>
+            <h3>Retirement planning</h3>
+            <p>IRA and retirement account options to help you plan for the years ahead.</p>
+          </div>
+        </li>
+        <li class="service-list__item reveal reveal--delay-3">
+          <span class="service-list__icon"><i class="fa-solid fa-briefcase"></i></span>
+          <div>
+            <h3>Small business banking</h3>
+            <p>Business checking, merchant services, and lending support for local owners.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel panel--qr" aria-labelledby="qr-heading">
+      <div class="qr-card reveal">
+        <div class="qr-card__text">
+          <p class="eyebrow">Take It With You</p>
+          <h2 id="qr-heading">Scan to save my contact</h2>
+          <p class="panel__intro">
+            Point your camera at the code to add my details straight to your phone&mdash;no
+            typing required.
+          </p>
+        </div>
+        <div class="qr-card__code">
+          <div id="qrCode" class="qr-canvas" role="img" aria-label="QR code linking to Lorenzo Arteaga's contact card"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--branch reveal" aria-labelledby="branch-heading">
+      <div class="branch-card">
+        <div class="branch-card__info">
+          <p class="eyebrow">Visit the Branch</p>
+          <h2 id="branch-heading">First Interstate Bank &mdash; Downtown Portland</h2>
+          <address>
+            121 SW Morrison St<br />
+            Portland, OR 97204
+          </address>
+          <p class="branch-card__hours">Mon&ndash;Fri, 9:00 AM&ndash;5:00 PM</p>
+          <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=First+Interstate+Bank+121+SW+Morrison+St+Portland+OR" target="_blank" rel="noopener">
+            <i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Get directions
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__brand">
+      <span class="topbar__badge topbar__badge--small"><i class="fa-solid fa-building-columns"></i></span>
+      <span>First Interstate Bank</span>
+    </div>
+    <button class="btn btn--solid btn--footer" type="button" id="downloadVcardFooter">
+      <i class="fa-solid fa-id-card" aria-hidden="true"></i> Download vCard
+    </button>
+    <p class="site-footer__fine">Lorenzo Arteaga &middot; NMLS information available upon request.</p>
+  </footer>
+
+  <script src="/assets/qrcode.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
