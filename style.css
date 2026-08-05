@@ -889,7 +889,7 @@ h2 {
 }
 
 .site-footer {
-  padding: 44px max(20px, calc((100% - var(--max-width)) / 2)) calc(110px + env(safe-area-inset-bottom));
+  padding: 44px max(20px, calc((100% - var(--max-width)) / 2)) calc(160px + env(safe-area-inset-bottom));
   border-top: 1px solid var(--line);
   background: var(--surface-muted);
 }
