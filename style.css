@@ -1159,6 +1159,7 @@ h2 {
 
 .footer-disclaimer {
   margin-top: 10px;
+   margin-bottom: 60px;
   font-size: 0.72rem;
   line-height: 1.5;
   color: var(--ink-soft);
@@ -1170,7 +1171,7 @@ h2 {
 }
 
 .footer-license {
-  margin-bottom: 0;
+  margin-bottom: 60px;
 }
 
 @media (prefers-reduced-motion: reduce) {
