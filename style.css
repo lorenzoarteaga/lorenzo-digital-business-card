@@ -1131,16 +1131,6 @@ h2 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .service-card:nth-child(2),
-  .service-card:nth-child(9) {
-    transform: translateY(18px);
-  }
-
-  .service-card:nth-child(2):hover,
-  .service-card:nth-child(9):hover {
-    transform: translateY(13px);
-  }
-
   .floating-actions {
     right: 24px;
     bottom: 24px;
