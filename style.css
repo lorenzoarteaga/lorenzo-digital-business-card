@@ -321,17 +321,17 @@ h2 {
 .portrait-ring {
   position: relative;
   padding: 8px;
-  border-radius: 43% 43% 48% 48% / 35% 35% 55% 55%;
+  border-radius: 24px;
   background: linear-gradient(140deg, var(--orange), #ffbd91 50%, white);
   box-shadow: var(--shadow-lg), 0 0 0 10px rgba(243, 111, 33, 0.075);
-  transform: rotate(-2deg);
 }
 
 .portrait-ring img {
+  display: block;
+  width: 100%;
   aspect-ratio: 1;
-  border-radius: inherit;
+  border-radius: 24px;
   object-fit: cover;
-  transform: rotate(2deg);
 }
 
 .availability {
