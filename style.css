@@ -1104,11 +1104,11 @@ h2 {
 
   .contact-card {
     padding: 30px;
-    transform: rotate(1.1deg);
+    transform: none;
   }
 
   .contact-card.is-visible {
-    transform: rotate(1.1deg) translateY(0);
+    transform: translateY(0);
   }
 
   .action-grid {
