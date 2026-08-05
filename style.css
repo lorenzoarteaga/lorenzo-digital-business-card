@@ -1157,6 +1157,13 @@ h2 {
   }
 }
 
+.footer-disclaimer {
+  margin-top: 10px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
