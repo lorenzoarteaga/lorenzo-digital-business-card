@@ -1163,6 +1163,15 @@ h2 {
   line-height: 1.5;
   color: var(--ink-soft);
 }
+.footer-copyright,
+.footer-license {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.footer-license {
+  margin-bottom: 0;
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
