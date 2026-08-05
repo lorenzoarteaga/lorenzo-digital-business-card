@@ -362,6 +362,18 @@ h2 {
   background: #30a46c;
   box-shadow: 0 0 0 4px rgba(48, 164, 108, 0.15);
 }
+.availability {
+  transition: all .35s ease;
+}
+
+.availability span:first-child {
+  transition: background-color .35s ease, box-shadow .35s ease;
+}
+
+.availability.offline span:first-child {
+  background: #dc2626;
+  box-shadow: 0 0 0 4px rgba(220,38,38,.15);
+}
 
 .eyebrow,
 .section-kicker {
