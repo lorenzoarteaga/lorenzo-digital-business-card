@@ -1,267 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lorenzo Arteaga | Community &amp; Business Banker, First Interstate Bank</title>
-  <meta name="description" content="Digital business card for Lorenzo Arteaga, Community &amp; Business Banker at First Interstate Bank in Portland, Oregon. Call, book an appointment, get directions, or save his contact." />
-  <meta name="theme-color" content="#f3701f" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#f36f21">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="Connect with Lorenzo Arteaga, Community &amp; Business Banker at First Interstate Bank in Portland, Oregon.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lorenzo Arteaga">
+    <link rel="canonical" href="https://celadon-alpaca-969a21.netlify.app/">
 
-  <link rel="canonical" href="https://lorenzoarteaga.netlify.app/" />
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Lorenzo Arteaga | Community &amp; Business Banker">
+    <meta property="og:description" content="Personalized banking solutions for individuals, families, and businesses in Portland, Oregon.">
+    <meta property="og:url" content="https://celadon-alpaca-969a21.netlify.app/">
+    <meta property="og:image" content="https://celadon-alpaca-969a21.netlify.app/assets/og-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Lorenzo Arteaga, Community &amp; Business Banker at First Interstate Bank">
+    <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Lorenzo Arteaga | First Interstate Bank" />
-  <meta property="og:description" content="Community &amp; Business Banker at First Interstate Bank, Portland, Oregon. Connect, book an appointment, or save my contact card." />
-  <meta property="og:url" content="https://lorenzoarteaga.netlify.app/" />
-  <meta property="og:image" content="https://lorenzoarteaga.netlify.app/assets/og-card.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Lorenzo Arteaga",
-    "jobTitle": "Community & Business Banker",
-    "url": "https://lorenzoarteaga.netlify.app/",
-    "image": "https://lorenzoarteaga.netlify.app/assets/og-card.png",
-    "telephone": "+1-503-499-5934",
-    "email": "Lorenzo.Arteaga@fib.com",
-    "worksFor": {
-      "@type": "BankOrCreditUnion",
-      "name": "First Interstate Bank",
-      "url": "https://www.firstinterstatebank.com"
-    },
-    "workLocation": {
-      "@type": "Place",
-      "name": "First Interstate Bank — Downtown Portland",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "200 SW Market Street, Suite 150",
-        "addressLocality": "Portland",
-        "addressRegion": "OR",
-        "postalCode": "97201",
-        "addressCountry": "US"
-      }
-    }
-  }
-  </script>
-
-
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="/style.css" />
-</head>
-<body data-theme="light">
-
-  <div class="loader" id="loader" aria-hidden="true">
-    <div class="loader__mark">
-      <i class="fa-solid fa-building-columns"></i>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <noscript><style>.page-loader{display:none}</style></noscript>
+    <title>Lorenzo Arteaga | First Interstate Bank</title>
+  </head>
+  <body>
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+      <div class="loader-mark"><span>LA</span></div>
     </div>
-  </div>
 
-  <div class="toast-stack" id="toastStack" role="status" aria-live="polite"></div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <div class="backdrop" aria-hidden="true">
-    <div class="backdrop__orb backdrop__orb--one"></div>
-    <div class="backdrop__orb backdrop__orb--two"></div>
-    <svg class="backdrop__path" viewBox="0 0 960 600" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M-20,120 C 220,40 340,260 620,140 S 1000,40 1000,40" />
-    </svg>
-  </div>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Lorenzo Arteaga home">
+        <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-landmark"></i></span>
+        <span><strong>First Interstate Bank</strong><small>Portland, Oregon</small></span>
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
+    </header>
 
-  <header class="topbar">
-    <div class="topbar__brand">
-      <span class="topbar__badge"><i class="fa-solid fa-building-columns"></i></span>
-      <span class="topbar__location">Portland, Oregon</span>
-    </div>
-    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
-      <i class="fa-solid fa-moon" aria-hidden="true"></i>
-    </button>
-  </header>
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="profile-name">
+        <div class="hero-glow glow-one" aria-hidden="true"></div>
+        <div class="hero-glow glow-two" aria-hidden="true"></div>
+        <div class="hero-grid">
+          <div class="profile-panel reveal">
+            <div class="portrait-wrap">
+              <div class="portrait-ring">
+                <img src="assets/portrait.jpg" width="640" height="640" alt="Portrait of Lorenzo Arteaga" fetchpriority="high">
+              </div>
+              <span class="availability"><span></span> Available to connect</span>
+            </div>
+            <p class="eyebrow"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Your local banking partner</p>
+            <h1 id="profile-name">Lorenzo <span>Arteaga</span></h1>
+            <p class="role">Community &amp; Business Banker</p>
+            <p class="company">First Interstate Bank</p>
+            <p class="intro">Helping individuals, families, and businesses achieve their financial goals through personalized banking solutions.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener noreferrer">
+                <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+                <span>Book Appointment</span>
+                <i class="fa-solid fa-arrow-up-right-from-square button-arrow" aria-hidden="true"></i>
+              </a>
+              <a class="button button-secondary" href="contact.vcf" download="Lorenzo-Arteaga.vcf">
+                <i class="fa-regular fa-address-card" aria-hidden="true"></i>
+                <span>Save Contact</span>
+              </a>
+            </div>
+          </div>
 
-  <main id="main">
+          <aside class="contact-card reveal" aria-labelledby="contact-title">
+            <div class="card-heading">
+              <div>
+                <p class="section-kicker">Direct contact</p>
+                <h2 id="contact-title">Let’s connect</h2>
+              </div>
+              <span class="secure-mark" aria-label="Professional contact card"><i class="fa-solid fa-lock" aria-hidden="true"></i></span>
+            </div>
 
-    <section class="hero">
-      <div class="hero__portrait reveal">
-        <div class="portrait-frame">
-          <img src="/assets/portrait.jpg" alt="Portrait of Lorenzo Arteaga" width="360" height="420" />
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                <div><span>Phone</span><a href="tel:+15034995934">(503) 499-5934</a></div>
+                <button class="copy-button" type="button" data-copy="(503) 499-5934" data-label="Phone number" aria-label="Copy phone number"><i class="fa-regular fa-copy" aria-hidden="true"></i></button>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                <div><span>Email</span><a href="mailto:Lorenzo.Arteaga@fib.com">Lorenzo.Arteaga@fib.com</a></div>
+                <button class="copy-button" type="button" data-copy="Lorenzo.Arteaga@fib.com" data-label="Email address" aria-label="Copy email address"><i class="fa-regular fa-copy" aria-hidden="true"></i></button>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                <div><span>Office</span><address>200 SW Market Street<br>Suite 150<br>Portland, OR 97201</address></div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa-solid fa-globe" aria-hidden="true"></i></span>
+                <div><span>Company website</span><a href="https://www.firstinterstatebank.com" target="_blank" rel="noopener noreferrer">firstinterstatebank.com</a></div>
+              </div>
+            </div>
+          </aside>
         </div>
-      </div>
+      </section>
 
-      <div class="hero__card reveal reveal--delay-1">
-        <p class="eyebrow">Direct Contact</p>
-        <h1 class="hero__heading">Let&rsquo;s connect</h1>
-        <p class="hero__name">Lorenzo Arteaga</p>
-        <p class="hero__title">Community &amp; Business Banker &middot; First Interstate Bank</p>
-        <p class="hero__blurb">
-          From everyday checking to your next big milestone, I help Portland-area neighbors
-          bank with more confidence. Reach out any time&mdash;happy to walk through your options.
-        </p>
-        <div class="hero__actions">
-          <a class="btn btn--outline" href="tel:+15034995934">
-            <i class="fa-solid fa-phone" aria-hidden="true"></i> Call
+      <section class="action-section section-shell reveal" aria-labelledby="actions-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">One tap away</p><h2 id="actions-title">How can I help?</h2></div>
+          <p>Choose the easiest way to get in touch.</p>
+        </div>
+        <div class="action-grid">
+          <a class="action-card action-featured" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener noreferrer">
+            <span class="action-icon"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i></span>
+            <span><strong>Book Appointment</strong><small>Find a time that works</small></span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </a>
-          <a class="btn btn--solid" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener">
-            <i class="fa-regular fa-calendar-check" aria-hidden="true"></i> Book
+          <a class="action-card" href="tel:+15034995934">
+            <span class="action-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+            <span><strong>Call</strong><small>(503) 499-5934</small></span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </a>
-        </div>
-        <dl class="hero__detail">
-          <div class="hero__detail-row">
-            <dt>Phone</dt>
-            <dd>
-              <span data-copy-value="+1 (503) 499-5934">(503) 499-5934</span>
-              <button class="copy-btn" type="button" data-copy-target aria-label="Copy phone number">
-                <i class="fa-regular fa-copy" aria-hidden="true"></i>
-              </button>
-            </dd>
-          </div>
-          <div class="hero__detail-row">
-            <dt>Email</dt>
-            <dd>
-              <span data-copy-value="Lorenzo.Arteaga@fib.com">Lorenzo.Arteaga@<wbr />fib.com</span>
-              <button class="copy-btn" type="button" data-copy-target aria-label="Copy email address">
-                <i class="fa-regular fa-copy" aria-hidden="true"></i>
-              </button>
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="panel reveal" aria-labelledby="reach-heading">
-      <div class="panel__head">
-        <p class="eyebrow">Reach Me</p>
-        <h2 id="reach-heading">Every way to get in touch</h2>
-      </div>
-      <div class="action-grid">
-        <a class="action-card" href="tel:+15034995934">
-          <span class="action-card__icon"><i class="fa-solid fa-phone"></i></span>
-          <span class="action-card__label">Call</span>
-          <span class="action-card__value">(503) 499-5934</span>
-        </a>
-        <a class="action-card" href="mailto:Lorenzo.Arteaga@fib.com">
-          <span class="action-card__icon"><i class="fa-solid fa-envelope"></i></span>
-          <span class="action-card__label">Email</span>
-          <span class="action-card__value">Lorenzo.Arteaga@<wbr />fib.com</span>
-        </a>
-        <a class="action-card" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener">
-          <span class="action-card__icon"><i class="fa-regular fa-calendar-check"></i></span>
-          <span class="action-card__label">Book an appointment</span>
-          <span class="action-card__value">Pick a time that works</span>
-        </a>
-        <a class="action-card" href="https://www.google.com/maps/search/?api=1&amp;query=First+Interstate+Bank+200+SW+Market+Street+Suite+150+Portland+OR+97201" target="_blank" rel="noopener">
-          <span class="action-card__icon"><i class="fa-solid fa-location-dot"></i></span>
-          <span class="action-card__label">Get directions</span>
-          <span class="action-card__value">200 SW Market St, Suite 150, Portland</span>
-        </a>
-        <button class="action-card action-card--button" type="button" id="downloadVcard">
-          <span class="action-card__icon"><i class="fa-solid fa-id-card"></i></span>
-          <span class="action-card__label">Save contact</span>
-          <span class="action-card__value">Download vCard (.vcf)</span>
-        </button>
-        <a class="action-card" href="https://www.firstinterstatebank.com" target="_blank" rel="noopener">
-          <span class="action-card__icon"><i class="fa-solid fa-globe"></i></span>
-          <span class="action-card__label">First Interstate Bank</span>
-          <span class="action-card__value">firstinterstatebank.com</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="panel panel--split" aria-labelledby="services-heading">
-      <div class="panel__head reveal">
-        <p class="eyebrow">How I Can Help</p>
-        <h2 id="services-heading">Banking services I support</h2>
-        <p class="panel__intro">
-          A quick look at what I handle day to day&mdash;bring in whatever&rsquo;s on your mind and
-          we&rsquo;ll find the right fit together.
-        </p>
-      </div>
-      <ul class="service-list">
-        <li class="service-list__item reveal">
-          <span class="service-list__icon"><i class="fa-solid fa-piggy-bank"></i></span>
-          <div>
-            <h3>Checking &amp; savings</h3>
-            <p>Everyday accounts, overdraft options, and savings goals built around your habits.</p>
-          </div>
-        </li>
-        <li class="service-list__item reveal reveal--delay-1">
-          <span class="service-list__icon"><i class="fa-solid fa-house"></i></span>
-          <div>
-            <h3>Home &amp; auto loans</h3>
-            <p>Guidance on rates, terms, and paperwork for your next home or vehicle purchase.</p>
-          </div>
-        </li>
-        <li class="service-list__item reveal reveal--delay-2">
-          <span class="service-list__icon"><i class="fa-solid fa-chart-line"></i></span>
-          <div>
-            <h3>Retirement planning</h3>
-            <p>IRA and retirement account options to help you plan for the years ahead.</p>
-          </div>
-        </li>
-        <li class="service-list__item reveal reveal--delay-3">
-          <span class="service-list__icon"><i class="fa-solid fa-briefcase"></i></span>
-          <div>
-            <h3>Small business banking</h3>
-            <p>Business checking, merchant services, and lending support for local owners.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="panel panel--qr" aria-labelledby="qr-heading">
-      <div class="qr-card reveal">
-        <div class="qr-card__text">
-          <p class="eyebrow">Take It With You</p>
-          <h2 id="qr-heading">Scan to save my contact</h2>
-          <p class="panel__intro">
-            Point your camera at the code to add my details straight to your phone&mdash;no
-            typing required.
-          </p>
-        </div>
-        <div class="qr-card__code">
-          <div id="qrCode" class="qr-canvas" role="img" aria-label="QR code linking to Lorenzo Arteaga's contact card"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel panel--branch reveal" aria-labelledby="branch-heading">
-      <div class="branch-card">
-        <div class="branch-card__info">
-          <p class="eyebrow">Visit the Branch</p>
-          <h2 id="branch-heading">First Interstate Bank &mdash; Downtown Portland</h2>
-          <address>
-            200 SW Market Street, Suite 150<br />
-            Portland, OR 97201
-          </address>
-          <p class="branch-card__hours">Mon&ndash;Fri, 9:00 AM&ndash;5:00 PM</p>
-          <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&amp;query=First+Interstate+Bank+200+SW+Market+Street+Suite+150+Portland+OR+97201" target="_blank" rel="noopener">
-            <i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Get directions
+          <a class="action-card" href="mailto:Lorenzo.Arteaga@fib.com">
+            <span class="action-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span>
+            <span><strong>Email</strong><small>Send a message</small></span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+          <a class="action-card" href="https://maps.google.com/?q=200+SW+Market+Street+Suite+150+Portland+OR+97201" target="_blank" rel="noopener noreferrer">
+            <span class="action-icon"><i class="fa-solid fa-location-arrow" aria-hidden="true"></i></span>
+            <span><strong>Get Directions</strong><small>Portland Market Street</small></span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+          <a class="action-card" href="https://www.firstinterstatebank.com" target="_blank" rel="noopener noreferrer">
+            <span class="action-icon"><i class="fa-solid fa-building-columns" aria-hidden="true"></i></span>
+            <span><strong>Visit First Interstate Bank</strong><small>Explore banking solutions</small></span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
           </a>
         </div>
+      </section>
+
+      <section class="services-section section-shell reveal" aria-labelledby="services-title">
+        <div class="section-heading centered">
+          <div><p class="section-kicker">Banking solutions</p><h2 id="services-title">Services built around your goals</h2></div>
+          <p>Thoughtful guidance and connections for each stage of your financial journey.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card"><i class="fa-solid fa-user" aria-hidden="true"></i><h3>Personal Banking</h3></article>
+          <article class="service-card"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><h3>Business Banking</h3></article>
+          <article class="service-card"><i class="fa-solid fa-hand-holding-dollar" aria-hidden="true"></i><h3>Loans</h3></article>
+          <article class="service-card"><i class="fa-solid fa-house" aria-hidden="true"></i><h3>HELOCs</h3></article>
+          <article class="service-card"><i class="fa-solid fa-piggy-bank" aria-hidden="true"></i><h3>Checking &amp; Savings</h3></article>
+          <article class="service-card"><i class="fa-solid fa-certificate" aria-hidden="true"></i><h3>Certificates of Deposit</h3></article>
+          <article class="service-card"><i class="fa-solid fa-seedling" aria-hidden="true"></i><h3>IRAs</h3></article>
+          <article class="service-card"><i class="fa-regular fa-credit-card" aria-hidden="true"></i><h3>Credit Cards</h3></article>
+          <article class="service-card"><i class="fa-solid fa-chart-line" aria-hidden="true"></i><h3>Business Lending</h3></article>
+          <article class="service-card referral"><i class="fa-solid fa-vault" aria-hidden="true"></i><h3>Treasury Solutions</h3><span>Referral</span></article>
+          <article class="service-card referral"><i class="fa-solid fa-cash-register" aria-hidden="true"></i><h3>Merchant Services</h3><span>Referral</span></article>
+          <article class="service-card referral"><i class="fa-solid fa-gem" aria-hidden="true"></i><h3>Wealth Management</h3><span>Referral</span></article>
+        </div>
+      </section>
+
+      <section class="value-section section-shell reveal" aria-labelledby="value-title">
+        <div class="section-heading centered">
+          <div><p class="section-kicker">The relationship matters</p><h2 id="value-title">Why work with me</h2></div>
+        </div>
+        <div class="value-grid">
+          <article class="value-card"><span>01</span><i class="fa-solid fa-fingerprint" aria-hidden="true"></i><h3>Personalized Service</h3><p>Recommendations shaped around your needs, priorities, and financial goals.</p></article>
+          <article class="value-card"><span>02</span><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i><h3>Local Decision Making</h3><p>Local market understanding supported by the resources of a trusted regional bank.</p></article>
+          <article class="value-card"><span>03</span><i class="fa-solid fa-people-arrows" aria-hidden="true"></i><h3>Relationship Focused</h3><p>A responsive, long-term approach centered on earning and keeping your trust.</p></article>
+        </div>
+      </section>
+
+      <section class="connect-section section-shell reveal" aria-labelledby="connect-title">
+        <div class="connect-card">
+          <div class="connect-copy">
+            <p class="section-kicker">Keep my details handy</p>
+            <h2 id="connect-title">Scan to connect with me</h2>
+            <p>Open this digital card on another device or save my complete contact information directly to your phone.</p>
+            <a class="button button-primary" href="contact.vcf" download="Lorenzo-Arteaga.vcf"><i class="fa-regular fa-address-card" aria-hidden="true"></i><span>Save Contact</span></a>
+          </div>
+          <div class="qr-panel">
+            <div id="qrcode" aria-label="QR code for this landing page"></div>
+            <p><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> Point your camera here</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell reveal" aria-label="Book an appointment">
+        <div><p class="section-kicker">Ready when you are</p><h2>Let’s talk about what’s next.</h2><p>Schedule a convenient time to discuss your banking goals.</p></div>
+        <a class="button button-light" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i><span>Book Appointment</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand"><span class="brand-mark"><i class="fa-solid fa-landmark" aria-hidden="true"></i></span><div><strong>First Interstate Bank</strong><small>Banking made better. Together.</small></div></div>
+        <div class="compliance-badges" aria-label="Banking disclosures">
+          <span class="compliance-badge"><i class="fa-solid fa-house" aria-hidden="true"></i> Equal Housing Lender</span>
+          <span class="compliance-badge"><i class="fa-solid fa-building-shield" aria-hidden="true"></i> Member FDIC</span>
+        </div>
       </div>
-    </section>
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> First Interstate Bank. All rights reserved.</p>
+        <p>This page is a professional digital contact card. Products and services are subject to eligibility and approval.</p>
+      </div>
+    </footer>
 
-  </main>
-
-  <footer class="site-footer">
-    <div class="site-footer__brand">
-      <span class="topbar__badge topbar__badge--small"><i class="fa-solid fa-building-columns"></i></span>
-      <a href="https://www.firstinterstatebank.com" target="_blank" rel="noopener">First Interstate Bank</a>
+    <div class="floating-actions" aria-label="Quick actions">
+      <a class="floating-button floating-call" href="tel:+15034995934"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Call</span></a>
+      <a class="floating-button floating-book" href="https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&amp;ep=bwmEmailSignature" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i><span>Book</span></a>
     </div>
-    <button class="btn btn--solid btn--footer" type="button" id="downloadVcardFooter">
-      <i class="fa-solid fa-id-card" aria-hidden="true"></i> Download vCard
-    </button>
-    <p class="site-footer__fine">Lorenzo Arteaga &middot; NMLS information available upon request.</p>
-  </footer>
 
-  <script src="/assets/qrcode.min.js"></script>
-  <script src="/script.js"></script>
-</body>
+    <div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Copied</span></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="script.js" defer></script>
+  </body>
 </html>
