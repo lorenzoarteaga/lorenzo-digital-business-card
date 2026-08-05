@@ -5,9 +5,9 @@ FN:Lorenzo Arteaga
 ORG:First Interstate Bank
 TITLE:Community & Business Banker
 TEL;TYPE=WORK,VOICE:+15034995934
-EMAIL;TYPE=WORK,INTERNET:Lorenzo.Arteaga@fib.com
-ADR;TYPE=WORK:;;200 SW Market Street, Suite 150;Portland;OR;97201;USA
-URL:https://lorenzoarteaga.netlify.app/
+EMAIL;TYPE=INTERNET,WORK:Lorenzo.Arteaga@fib.com
+ADR;TYPE=WORK:;;200 SW Market Street\, Suite 150;Portland;OR;97201;USA
 URL;TYPE=WORK:https://www.firstinterstatebank.com
-NOTE:Checking and savings, home and auto loans, retirement planning, and small business banking for the Portland area. Book an appointment: https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&ep=bwmEmailSignature
+URL;TYPE=APPOINTMENT:https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&ep=bwmEmailSignature
+NOTE:Book an appointment: https://outlook.office.com/bookwithme/user/007c9fa1dfb44312be16dc2ae165b440@fib.com?anonymous&ep=bwmEmailSignature
 END:VCARD
